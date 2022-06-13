@@ -1,0 +1,17 @@
+{
+    "collection": "buses",
+    "database": "audela",
+    "roles": [
+        {
+            "name": "Manager",
+            "apply_when": {
+                "%%user.custom_data.role": "manager"
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

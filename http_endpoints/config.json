@@ -1,0 +1,26 @@
+[
+    {
+        "route": "/getSchedules",
+        "http_method": "GET",
+        "function_name": "getSchedules",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "---Censored---",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    },
+    {
+        "route": "/getScore",
+        "http_method": "GET",
+        "function_name": "getScore",
+        "validation_method": "SECRET_AS_QUERY_PARAM",
+        "secret_name": "---Censored---",
+        "respond_result": true,
+        "fetch_custom_user_data": true,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
+    }
+]
